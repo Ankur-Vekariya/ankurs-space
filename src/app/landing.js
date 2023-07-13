@@ -2,7 +2,6 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 
 export default function Landing() {
@@ -13,11 +12,9 @@ export default function Landing() {
           item
           xs={8}
           style={{
-            minHeight: "600px",
+            minHeight: "650px",
             display: "flex",
             flexDirection: "column",
-            // borderWidth: "1px",
-            // borderColor: "red",
             justifyContent: "center",
           }}
         >
