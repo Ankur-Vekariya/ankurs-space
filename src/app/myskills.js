@@ -6,7 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { Box } from "@mui/material";
+import { Box, CardActionArea } from "@mui/material";
 
 export default function MySkills() {
   return (
@@ -17,8 +17,8 @@ export default function MySkills() {
         justifyContent: "space-around",
       }}
     >
-      <Card sx={{ maxWidth: 300, backgroundColor: "#E7B10A" }}>
-        <CardContent>
+      <Card sx={{ maxWidth: 300, backgroundColor: "#ADC5CF" }}>
+        <CardContent accessKey="false">
           <Typography gutterBottom variant="h5" component="div">
             Lizard
           </Typography>
@@ -27,13 +27,9 @@ export default function MySkills() {
             species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions>
       </Card>
 
-      <Card sx={{ maxWidth: 300, backgroundColor: "#E7B10A" }}>
+      <Card sx={{ maxWidth: 300, backgroundColor: "#ADC5CF" }}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             Lizard
@@ -43,12 +39,8 @@ export default function MySkills() {
             species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions>
       </Card>
-      <Card sx={{ maxWidth: 300, backgroundColor: "#E7B10A" }}>
+      <Card sx={{ maxWidth: 300, backgroundColor: "#ADC5CF" }}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             Lizard
@@ -58,12 +50,8 @@ export default function MySkills() {
             species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions>
       </Card>
-      <Card sx={{ maxWidth: 300, backgroundColor: "#E7B10A" }}>
+      <Card sx={{ maxWidth: 300, backgroundColor: "#ADC5CF" }}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             Lizard
@@ -73,10 +61,6 @@ export default function MySkills() {
             species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions>
       </Card>
     </Box>
   );

@@ -15,7 +15,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { useState } from "react";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = ["About", "Projects", "Contact"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 export default function Header() {
@@ -53,13 +53,15 @@ export default function Header() {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "#E7B10A",
+              // color: "#E7B10A",
+              color: " #39829B",
               textDecoration: "none",
+              fontSize: "30px",
             }}
           >
             ANKUR'S-SPACE
           </Typography>
-
+          &nbsp; &nbsp; &nbsp;
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -126,7 +128,6 @@ export default function Header() {
               </Button>
             ))}
           </Box>
-
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
