@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Landing from "./landing";
 import MySkills from "./myskills";
 import Gallery from "./gallery";
+import Certifications from "./components/Certifications";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         {/* {children} */}
         <Landing />
         <MySkills />
+        <Certifications />
         {/* <Gallery /> */}
       </body>
     </html>
