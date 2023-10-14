@@ -5,6 +5,9 @@ import Landing from "./landing";
 import MySkills from "./myskills";
 import Gallery from "./gallery";
 import Certifications from "./components/Certifications";
+import Technology from "./technology";
+import Numbers from "./numbers";
+import Experience from "./experience";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +26,9 @@ export default function RootLayout({ children }) {
         <MySkills />
         <Certifications />
         {/* <Gallery /> */}
+        <Technology />
+        <Numbers />
+        <Experience />
       </body>
     </html>
   );
