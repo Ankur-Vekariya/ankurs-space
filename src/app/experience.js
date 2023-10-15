@@ -4,9 +4,9 @@ import { Container } from "@mui/material";
 
 export default function Experience() {
   return (
-    <Container maxWidth="xl  ">
-      <div className="flex bg-gradient-to-r from-green-300 to-purple-400 rounded-3xl">
-        <div className="container px-5 py-24 mx-auto flex flex-wrap ">
+    <Container maxWidth="xl flex justify-left  ">
+      <div className="flex md:flex-row flex-col bg-gradient-to-r from-green-300 to-purple-400 rounded-3xl">
+        <div className="container px-0 py-0 mx-auto flex flex-wrap ">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -106,7 +106,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        <div className="container px-5 py-24 mx-auto flex flex-wrap ">
+        <div className="container px-0 py-0 mx-auto flex flex-wrap ">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>

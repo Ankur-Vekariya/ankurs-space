@@ -69,47 +69,47 @@ export default function Technology() {
   ];
   return (
     <Container maxWidth="xl">
-      <div class="flex items-center justify-center text-center">
-        <div class="flex flex-col p-2 m-2  max-w-7xl">
-          <div class="text-3xl font-medium">Technology</div>
-          <div class="text-sm mx-2 md:text-xl text-stone-500">
+      <div className="flex items-center justify-center text-center">
+        <div className="flex flex-col p-2 m-2  max-w-7xl">
+          <div className="text-3xl font-medium">Technology</div>
+          <div className="text-sm mx-2 md:text-xl text-stone-500">
             Meet the team member who have contributed their designs for this
             websites.
           </div>
-          <div class="text-sm mx-2 md:text-xl mb-2 text-stone-500">
+          <div className="text-sm mx-2 md:text-xl mb-2 text-stone-500">
             Resource person of Tailblocks communinty
           </div>
 
-          <div class="flex items-center justify-center md:flex-row flex-col space-x-4 space-y-2  p-2">
+          <div className="flex items-center justify-center md:flex-row flex-col space-x-4 space-y-2  p-2">
             {techs1.map((item, index) => {
               return (
                 <div
                   key={index}
-                  class="flex-col px-6 w-auto md:w-40 py-2 ml-3 md:ml-0 rounded-2xl backdrop-blur-sm bg-white/30"
+                  className="flex-col px-6 w-auto md:w-40 py-2 ml-3 md:ml-0 rounded-2xl backdrop-blur-sm bg-white/30"
                 >
-                  <div class="h-28 w-28  ">
-                    <img src={item.image} alt="" class="" />
+                  <div className="h-28 w-28  ">
+                    <img src={item.image} alt="" className="" />
                   </div>
 
-                  <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
+                  <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
                     {item.title}
                   </div>
                 </div>
               );
             })}
           </div>
-          <div class="flex space-x-4 space-y-2  p-2 items-center justify-center md:flex-row flex-col ">
+          <div className="flex space-x-4 space-y-2  p-2 items-center justify-center md:flex-row flex-col ">
             {techs2.map((item, index) => {
               return (
                 <div
                   key={index}
-                  class="flex-col px-6 w-auto md:w-40 py-2 ml-3 md:ml-0 rounded-2xl backdrop-blur-sm bg-white/30"
+                  className="flex-col px-6 w-auto md:w-40 py-2 ml-3 md:ml-0 rounded-2xl backdrop-blur-sm bg-white/30"
                 >
-                  <div class="h-28 w-28  ">
-                    <img src={item.image} alt="" class="" />
+                  <div className="h-28 w-28  ">
+                    <img src={item.image} alt="" className="" />
                   </div>
 
-                  <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
+                  <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
                     {item.title}
                   </div>
                 </div>

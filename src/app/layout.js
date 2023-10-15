@@ -8,6 +8,7 @@ import Certifications from "./components/Certifications";
 import Technology from "./technology";
 import Numbers from "./numbers";
 import Experience from "./experience";
+import Footer from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,16 +20,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-r from-indigo-400 to-cyan-400">
+      <body className="bg-gradient-to-r from-indigo-400 to-cyan-400 w-full">
         <Header />
         {/* {children} */}
         <Landing />
         <MySkills />
         <Certifications />
-        {/* <Gallery /> */}
         <Technology />
         <Numbers />
         <Experience />
+        <Footer />
       </body>
     </html>
   );

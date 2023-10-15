@@ -5,8 +5,8 @@ const Gallery = () => {
   return (
     <div>
       <section>
-        <div class="card">
-          <div class="card__img">
+        <div className="card">
+          <div className="card__img">
             <img
               src="https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
               alt="Big Ben"
@@ -14,7 +14,7 @@ const Gallery = () => {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -22,14 +22,14 @@ const Gallery = () => {
               </svg>
               4.5
             </span>
-            <div class="card__overlay">
+            <div className="card__overlay">
               <h2>London</h2>
               <p>Big Ben</p>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card__img">
+        <div className="card">
+          <div className="card__img">
             <img
               src="https://images.unsplash.com/photo-1581010864468-c972b8705439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
               alt="Eiffel Tower"
@@ -37,7 +37,7 @@ const Gallery = () => {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -45,14 +45,14 @@ const Gallery = () => {
               </svg>
               5
             </span>
-            <div class="card__overlay">
+            <div className="card__overlay">
               <h2>Paris</h2>
               <p>Eiffel Tower</p>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card__img">
+        <div className="card">
+          <div className="card__img">
             <img
               src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1096&q=80"
               alt="Colosseum"
@@ -60,7 +60,7 @@ const Gallery = () => {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -68,14 +68,14 @@ const Gallery = () => {
               </svg>
               4.7
             </span>
-            <div class="card__overlay">
+            <div className="card__overlay">
               <h2>Rome</h2>
               <p>Colosseum</p>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card__img">
+        <div className="card">
+          <div className="card__img">
             <img
               src="https://images.unsplash.com/photo-1581473483413-313a5afffb08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=714&q=80"
               alt="Pisa Tower"
@@ -83,7 +83,7 @@ const Gallery = () => {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -91,14 +91,14 @@ const Gallery = () => {
               </svg>
               4.3
             </span>
-            <div class="card__overlay">
+            <div className="card__overlay">
               <h2>Pisa</h2>
               <p>Pisa Tower</p>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card__img">
+        <div className="card">
+          <div className="card__img">
             <img
               src="https://images.unsplash.com/photo-1585155967849-91c736589c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
               alt=""
@@ -106,7 +106,7 @@ const Gallery = () => {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -114,14 +114,14 @@ const Gallery = () => {
               </svg>
               4.8
             </span>
-            <div class="card__overlay">
+            <div className="card__overlay">
               <h2>New York</h2>
               <p>Statue of Liberty</p>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card__img">
+        <div className="card">
+          <div className="card__img">
             <img
               src="https://images.unsplash.com/photo-1527915676329-fd5ec8a12d4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
               alt="Sydney Opera House"
@@ -129,7 +129,7 @@ const Gallery = () => {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -137,7 +137,7 @@ const Gallery = () => {
               </svg>
               5
             </span>
-            <div class="card__overlay">
+            <div className="card__overlay">
               <h2>Sydney</h2>
               <p>Sydney Opera House</p>
             </div>
