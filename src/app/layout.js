@@ -9,6 +9,7 @@ import Technology from "./technology";
 import Numbers from "./numbers";
 import Experience from "./experience";
 import Footer from "./footer";
+import Anime from "./anime";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <Numbers />
         <Experience />
         <Footer />
+        <Anime />
       </body>
     </html>
   );

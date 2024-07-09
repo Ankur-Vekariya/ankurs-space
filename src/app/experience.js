@@ -132,6 +132,7 @@ export default function Experience() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   07/2022 - Current
                 </h2>
+                <p className="leading-relaxed">React JS Developer</p>
                 <p className="leading-relaxed">
                   Spyhunter IT Solution PVT. LTD.
                 </p>
@@ -164,6 +165,10 @@ export default function Experience() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                   01/2022 - 04/2022
                 </h2>
+                <p className="leading-relaxed">
+                  MERN Stack Developement(Internship)
+                </p>
+
                 <p className="leading-relaxed">Arth Infosoft PVT. LTD.</p>
                 <p className="leading-relaxed">Ahmedabad</p>
               </div>

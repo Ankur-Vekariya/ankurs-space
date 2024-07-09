@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import Container from "@mui/material/Container";
+import "./anime.css";
 
 export default function Footer() {
   return (
@@ -21,11 +22,9 @@ export default function Footer() {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span className="ml-3 text-xl">Tailblocks</span>
+              <span className="ml-3 text-xl">Ankur Vekariya</span>
             </a>
-            <p className="mt-2 text-sm text-gray-500">
-              Air plant banjo lyft occupy retro adaptogen indego
-            </p>
+            <p className="mt-2 text-sm text-gray-500">MERN Stack Developer</p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -34,16 +33,24 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
                 </li>
               </nav>
             </div>
@@ -53,22 +60,40 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    First Link
+                  </a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Second Link
+                  </a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Third Link
+                  </a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Fourth Link
+                  </a>
                 </li>
               </nav>
             </div>
           </div>
         </div>
-        <div className="bg-gray-100">
+        <div class="loop-wrapper">
+          <div class="mountain"></div>
+          <div class="hill"></div>
+          <div class="tree"></div>
+          <div class="tree"></div>
+          <div class="tree"></div>
+          <div class="rock"></div>
+          <div class="truck"></div>
+          <div class="wheels"></div>
+        </div>
+        {/* <div className="bg-gray-100">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
               © 2020 Tailblocks —
@@ -139,7 +164,7 @@ export default function Footer() {
               </a>
             </span>
           </div>
-        </div>
+        </div> */}
       </footer>
     </Container>
   );
