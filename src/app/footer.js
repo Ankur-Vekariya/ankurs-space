@@ -83,15 +83,15 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div class="loop-wrapper">
-          <div class="mountain"></div>
-          <div class="hill"></div>
-          <div class="tree"></div>
-          <div class="tree"></div>
-          <div class="tree"></div>
-          <div class="rock"></div>
-          <div class="truck"></div>
-          <div class="wheels"></div>
+        <div className="loop-wrapper">
+          <div className="mountain"></div>
+          <div className="hill"></div>
+          <div className="tree"></div>
+          <div className="tree"></div>
+          <div className="tree"></div>
+          <div className="rock"></div>
+          <div className="truck"></div>
+          <div className="wheels"></div>
         </div>
         {/* <div className="bg-gray-100">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
