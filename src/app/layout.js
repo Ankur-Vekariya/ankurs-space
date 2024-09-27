@@ -32,6 +32,11 @@ export default function RootLayout({ children }) {
         {/* <Experience /> */}
         {/* <Footer /> */}
         {/* <Anime /> */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5552477739003867"
+          crossorigin="anonymous"
+        ></script>
       </body>
     </html>
   );
